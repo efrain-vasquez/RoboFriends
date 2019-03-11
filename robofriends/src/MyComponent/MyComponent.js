@@ -11,12 +11,13 @@ class MyComponent extends Component {
     <div className='f1 tc'>
     <h1>Hello World</h1>
     <p>{this.props.cumbia}</p>
-    //curly brackets tells that we are using js and calling props
     </div>
+    //curly brackets tells that we are using js and calling props
   );
   }
 }
-export default MyComponent;//export so it becomes available to render() method.
+export default MyComponent;
+//export so it becomes available to render() method.
 
 
 //react uses jsx to develope or render there fake DOM.
